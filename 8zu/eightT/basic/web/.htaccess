@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^/t_(.*).html$ /basic/web/index.php
+RewriteCond %{HTTP_REFERER} !^localhost/ [NC]
